@@ -17,7 +17,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "backend is up"}
+    return {"message": "backend is up and running"}
 
 
 @app.get("/v1/api/{video_id}")
